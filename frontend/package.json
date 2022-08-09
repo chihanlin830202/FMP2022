@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node index.js",
     "deploy": "npm run build && rm -rf output static && next export -o output && mv output static && python integration_script.py -d static",
     "lint": "next lint"
   },
