@@ -1,39 +1,42 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-0d1b80a048d4787e.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/CszywrUYC5KrB27Ifx-4D/_buildManifest.js",
+    "static/CszywrUYC5KrB27Ifx-4D/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-959cc2ac3c742fb4.js",
+      "static/chunks/876-19a2993fba86662f.js",
+      "static/chunks/pages/index-03c48af8e18f926a.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-959cc2ac3c742fb4.js",
+      "static/css/69f81e06845cd7ae.css",
+      "static/chunks/pages/_app-fb834dc1c18f6b5f.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-959cc2ac3c742fb4.js",
+      "static/chunks/pages/_error-a4ba2246ff8fb532.js"
     ],
     "/classifier": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/classifier.js"
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-959cc2ac3c742fb4.js",
+      "static/chunks/f357f4e3-22ef9e913d36c262.js",
+      "static/chunks/663-184b2bc61a6928bb.js",
+      "static/chunks/pages/classifier-e5973ee243a3bbf8.js"
     ]
   },
   "ampFirstPages": []
