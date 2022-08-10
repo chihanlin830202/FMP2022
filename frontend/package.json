@@ -5,13 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node index.js",
+    "start": "npm run dev",
     "deploy": "npm run build && rm -rf output static && next export -o output && mv output static && python integration_script.py -d static",
     "lint": "next lint"
   },
   "engines": {
-    "node": "18.4.0",
-    "npm": "8.12.1"
+    "node": "18.7.0",
+    "npm": "8.15.0"
   },
   "author": "MG",
   "license": "MIT",
