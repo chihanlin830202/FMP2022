@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm run dev",
+    "start": "PORT=5432 npm run dev",
     "deploy": "npm run build && rm -rf output static && next export -o output && mv output static && python integration_script.py -d static",
     "lint": "next lint"
   },
