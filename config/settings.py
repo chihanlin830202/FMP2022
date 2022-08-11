@@ -16,8 +16,6 @@ SECRET_KEY = 'django-insecure-@oqfb_hfa9v0*j68%2-r1oz69y_@=e%i(l$yxy3tl#suqgnzbn
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
     'chihanlinfmp.herokuapp.com',
     'snazzy-haupia-e34486.netlify.app'
 ]
