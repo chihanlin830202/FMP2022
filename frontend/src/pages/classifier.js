@@ -90,7 +90,7 @@ const Classifier = () => {
         <React.Fragment>
             <Head>
                 <title>
-                    Chi's Main Classifier
+                    Main Classifier
                 </title>
             </Head>
             <Box 
