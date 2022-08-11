@@ -56,7 +56,7 @@ const Classifier = () => {
         const formData = new FormData();
         formData.append('image', files[0], files[0].name);
 
-        axios.post('https://snazzy-haupia-e34486.netlify.app/api/classifier/', formData, {
+        axios.post('classifier/', formData, {
             headers: {
                 'accept': 'application/json',
                 'content-type': 'multipart/form-data'
@@ -69,7 +69,7 @@ const Classifier = () => {
     };
 
     const getClassificationResult = (obj) => {
-        axios.get('https://snazzy-haupia-e34486.netlify.app/api/classifier/${obj.data.id}/', {
+        axios.get('api/classifier/${obj.data.id}/', {
             headers: {
                 'accept': 'application/json',
             }
