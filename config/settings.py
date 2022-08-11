@@ -1,6 +1,5 @@
 import os
 from pathlib import Path 
-import django_heroku
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -141,4 +140,3 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 FILE_UPLOAD_PERMISSIONS=0o640
 
-django_heroku.setings(locals())
