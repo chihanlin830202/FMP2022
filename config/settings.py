@@ -19,6 +19,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'chihanlinfmp.herokuapp.com',
+    'snazzy-haupia-e34486.netlify.app'
 ]
 
 
