@@ -1,5 +1,6 @@
 import os
-from pathlib import Path 
+from pathlib import Path
+from pickle import FALSE 
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -13,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@oqfb_hfa9v0*j68%2-r1oz69y_@=e%i(l$yxy3tl#suqgnzbn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'snazzy-haupia-e34486.netlify.app',
@@ -140,4 +141,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
 
 FILE_UPLOAD_PERMISSIONS=0o640
+
+CSRF_COOKIE_SECURE=True
+
+SESSION_COOKIE_SECURE=True
 
