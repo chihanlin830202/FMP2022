@@ -3,10 +3,8 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useTheme, useMediaQuery } from '@mui/material';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { Container } from '@mui/system';
-
 import HeroButtons from '../components/HeroButtons';
+
 
 const Hero = () => {
     const theme = useTheme();

@@ -9,7 +9,7 @@ const Home = () => {
         <React.Fragment>
             <Head>
                 <title>
-                    Classicfication App
+                    Chi's Classicfication App
                 </title>
             </Head>
             <Hero />
