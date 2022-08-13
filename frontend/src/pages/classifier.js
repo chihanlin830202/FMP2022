@@ -69,7 +69,7 @@ const Classifier = () => {
     };
 
     const getClassificationResult = (obj) => {
-        axios.get('http://127.0.0.1:8000/api/classifier/${obj.data.id}/', {
+        axios.get(`http://127.0.0.1:8000/api/classifier/${obj.data.id}/`, {
             headers: {
                 'accept': 'application/json',
             }
@@ -81,6 +81,11 @@ const Classifier = () => {
 
         setIsLoading(false);
     };
+
+    const classifyAnother = () => {
+        setImage(null);
+    };
+
 
     const classifyAnother = () => {
         setImage(null);
