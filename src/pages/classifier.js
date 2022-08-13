@@ -69,7 +69,7 @@ const Classifier = () => {
     };
 
     const getClassificationResult = (obj) => {
-        axios.get('/api/classifier/${obj.data.id}/', {
+        axios.get(`api/classifier/${obj.data.id}/`, {
             headers: {
                 'accept': 'application/json',
             }
@@ -90,7 +90,7 @@ const Classifier = () => {
         <React.Fragment>
             <Head>
                 <title>
-                    Chi's Main Classifier
+                    Main Classifier
                 </title>
             </Head>
             <Box 
