@@ -6,3 +6,5 @@ from .models import Classifier
 class ClassifierViewSet(viewsets.ModelViewSet):
     queryset = Classifier.objects.all().order_by('-date_uploaded')
     serializer_class = ClassifierSerializer
+    permission_classes = []
+    authentication_classes = []
