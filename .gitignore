@@ -4,6 +4,5 @@
 db.sqlite3
 node_modules/ 
 venv/
-media/images
 .env
 *.so

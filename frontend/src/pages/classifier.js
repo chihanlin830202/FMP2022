@@ -86,11 +86,6 @@ const Classifier = () => {
         setImage(null);
     };
 
-
-    const classifyAnother = () => {
-        setImage(null);
-    };
-
     return (
         <React.Fragment>
             <Head>

@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@oqfb_hfa9v0*j68%2-r1oz69y_@=e%i(l$yxy3tl#suqgnzbn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'snazzy-haupia-e34486.netlify.app',
@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': '123456',
         'HOST': 'localhost',
-        'DATABASE_PORT': '5432'
+        'DATABASE_PORT': ''
     }
 }
 
