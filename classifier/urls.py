@@ -7,10 +7,6 @@ from .views import ClassifierViewSet
 router = routers.DefaultRouter()
 router.register(r'classifier', ClassifierViewSet)
 
-# urlpatterns = [
-#     path('', include(router.urls)),
-# ]
 urlpatterns = [
-    path('',views.ClassifierViewSet.as_view({
-        'get':'list'}),name='hello_classifier')
+    path('', include(router.urls)),
 ]
