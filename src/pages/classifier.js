@@ -56,7 +56,7 @@ const Classifier = () => {
         const formData = new FormData();
         formData.append('image', files[0], files[0].name);
 
-        axios.post('/api/classifier/', formData, {
+        axios.post(`/api/classifier/`, formData, {
             headers: {
                 'accept': 'application/json',
                 'content-type': 'multipart/form-data'
