@@ -28,85 +28,25 @@ const Header = ({ onSidebarMobileOpen }) => {
                 }}
             >
                 <Toolbar sx={{ minHeight: 70 }}>
-                    <IconButton
-                        color='inherit'
-                        onClick={onSidebarMobileOpen}
-                        sx={{ display: { md: 'none' } }}
-                    >
-                        <MenuIcon fontSize='medium' />
-                    </IconButton>
                     <Link href='/' style={{ textDecoration: 'none' }}>
                         <Box sx={{ display: { md: 'inline', xs: 'none' } }}>
-                            <IconButton size='large' disabled>
-                                <CameraAltIcon 
-                                    style={{ 
-                                        color: theme.palette.common.white, 
-                                        height: 50, 
-                                        width: 30 
-                                    }} 
-                                />
-                                <Typography 
-                                    component='h1'
-                                    variant='h2' 
-                                    sx={{ 
-                                        flexGrow: 1,
-                                        color: theme.palette.common.white,
-                                        fontFamily:'"Libre Baskerville"',
-                                        fontWeight: 'bold',
-                                        textDecoration: 'none',
-                                        marginLeft: '10px'
-                                    }}
-                                >
-                                    Dog Breeds Classification
-                                </Typography>
-                            </IconButton>
+                            <Typography 
+                                component='h1'
+                                variant='h2' 
+                                sx={{ 
+                                    flexGrow: 1,
+                                    color: theme.palette.common.white,
+                                    fontFamily:'"Libre Baskerville"',
+                                    fontWeight: 'bold',
+                                    textDecoration: 'none',
+                                    marginLeft: '10px'
+                                }}
+                            >
+                                Dog Breeds Classification
+                            </Typography>
                         </Box>
                     </Link>
                     <Box sx={{ flexGrow: 1 }} />
-                        <Button
-                            component='a'
-                            color='primary'
-                            href='/'
-                            size='small'
-                            variant='text'
-                            sx={{
-                                color: theme.palette.common.white,
-                                fontSize: theme.typography.subtitle1,
-                                fontWeight: 'medium',
-                                mr: 2,
-                                '& svg': {
-                                    mr: 0.5
-                                },
-                            }}
-                        >
-                            <HomeOutlinedIcon /> Home
-                        </Button>
-                        <Button
-                            component='a'
-                            color='primary'
-                            href='/classifier'
-                            size='small'
-                            variant='text'
-                            sx={{
-                                color: theme.palette.common.white,
-                                fontSize: theme.typography.subtitle1,
-                                fontWeight: 'medium',
-                                mr: 2,
-                                '& svg': {
-                                    mr: 0.5
-                                },
-                            }}
-                        >
-                            <InsertPhotoOutlinedIcon /> Image Classifier
-                        </Button>
-                        <Divider
-                        orientation='vertical'
-                        sx={{ 
-                            height: 32, 
-                            mx: 2,
-                            display: { lg: 'flex', md: 'none', xs: 'none' } 
-                        }} 
-                        />
                     <Box sx={{ display: { lg: 'flex', md: 'none', xs: 'none' } }}>
                         <IconButton 
                             aria-label='LinkedIn' 

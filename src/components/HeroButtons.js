@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useTheme, useMediaQuery } from '@mui/material';
+import PlayIcon from '@mui/icons-material/PlayCircleOutlineOutlined';
 
 
 const HeroButtons = () => {
@@ -47,6 +48,29 @@ const HeroButtons = () => {
                     marginLeft={{ sm: 1 }}
                     width={{ xs: '100%', md: 'auto' }}
                 >
+                    <Button 
+                        component='a'
+                        variant='contained'
+                        color='primary'
+                        size='large'
+                        href='https://youtu.be/PeuTOGVRWP0'
+                        startIcon={<PlayIcon />}
+                        fullWidth={isMd ? false : true}
+                        disableElevation={true}
+                        sx={{
+                            padding: '10px 25px',
+                            marginRight: '15px',
+                            fontSize: '18px',
+                            border: '2px solid white',
+                            '&:hover': {
+                                backgroundColor: 'white',
+                                color: theme.palette.primary.main,
+                                border: '2px solid ' + theme.palette.secondary.main
+                            }
+                        }}
+                    >
+                        Watch Demo
+                    </Button>
                 </Box>
             </Box>
         </React.Fragment>

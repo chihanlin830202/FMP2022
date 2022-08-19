@@ -34,6 +34,6 @@ class Classifier(models.Model):
             self.result = str(decoded)
             print('Success')
         except Exception as e:
-            print('Classification failed:', e)
+            print('Failed:', e)
 
         return super().save(*args, **kwargs)
