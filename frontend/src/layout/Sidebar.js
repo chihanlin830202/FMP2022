@@ -60,7 +60,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                                     textDecoration='none'
                                     marginLeft='10px'
                                 >
-                                    Doggo breeds classification
+                                    Dog breeds classification
                                 </Typography>
                             </IconButton>
                         </Box>
