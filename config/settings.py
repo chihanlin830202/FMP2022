@@ -5,7 +5,7 @@ from pickle import FALSE
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@oqfb_hfa9v0*j68%2-r1oz69y_@=e%i(l$yxy3tl#suqgnzbn'
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'snazzy-haupia-e34486.netlify.app',
