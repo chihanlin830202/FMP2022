@@ -4,8 +4,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path(r'admin/', admin.site.urls),
-    path(r'api/', include('classifier.urls'))
+    path('admin/', admin.site.urls),
+    path('api/', include('classifier.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
