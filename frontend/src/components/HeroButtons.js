@@ -53,7 +53,7 @@ const HeroButtons = () => {
                         variant='contained'
                         color='primary'
                         size='large'
-                        href='https://youtu.be/PeuTOGVRWP0'
+                        href='https://youtu.be/E506LKoKKZg'
                         startIcon={<PlayIcon />}
                         fullWidth={isMd ? false : true}
                         disableElevation={true}
